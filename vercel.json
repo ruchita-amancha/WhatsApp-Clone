@@ -1,8 +1,12 @@
 {
-    "build": {
-      "env": {
-        "NODE_VERSION": "20"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
       }
     }
-  }
-  
+  ],
+  "buildCommand": "chmod +x ./node_modules/.bin/vite || true && npm run build"
+}

@@ -4,13 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "npx vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "postinstall": "chmod +x ./node_modules/.bin/vite || true"
-}
-,
+    "dev": "vite",
+    "build": "npx vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "postinstall": "chmod +x ./node_modules/.bin/vite || true"
+  },
   "engines": {
     "node": "20.x"
   },
